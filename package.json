@@ -1,0 +1,30 @@
+{
+  "name": "flower-shop",
+  "version": "1.0.0",
+  "description": "nodejs-sql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongkhanhhoa623/flower-shop.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sql",
+    "flower"
+  ],
+  "author": "khanh_hoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongkhanhhoa623/flower-shop/issues"
+  },
+  "homepage": "https://github.com/truongkhanhhoa623/flower-shop#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
